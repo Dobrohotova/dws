@@ -26,6 +26,7 @@ if ($a > $b) {
 		echo $c;
 	}
 }
+echo "<br/>";
 
 
 
@@ -39,7 +40,7 @@ $site_varijabli = array($a, $b, $c);
 
 for($i = 0; $i < count($site_varijabli); $i++){
 	if (is_numeric($site_varijabli[$i])){
-		echo $site_varijabli[$i];
+		echo $site_varijabli[$i]."<br/>";
 	} else {
 		echo "Внеси број!";
 	}
